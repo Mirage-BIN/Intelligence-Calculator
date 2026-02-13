@@ -50,7 +50,7 @@
 - Windows 10/11（依赖 `win10toast`）
 
 ### 依赖安装
-```bash
+
 pip install PyQt5 win10toast PyQt-Fluent-Widgets
 
 ## 使用指南
