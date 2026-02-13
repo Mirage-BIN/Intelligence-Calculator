@@ -842,7 +842,7 @@ class SponsorDialog(QDialog):
         
         # 投币按钮
         coin_button = QPushButton("投币")
-        coin_button.clicked.connect(lambda: webbrowser.open("https://www.bilibili.com"))
+        coin_button.clicked.connect(lambda: webbrowser.open("https://space.bilibili.com/3546558473702169"))
         coin_button.setMinimumHeight(50)
         coin_button.setFont(self.font_manager.get_font("Medium", 16))
         coin_button.setStyleSheet("""
@@ -862,7 +862,7 @@ class SponsorDialog(QDialog):
         
         # Star按钮
         star_button = QPushButton("Star")
-        star_button.clicked.connect(lambda: webbrowser.open("https://www.bilibili.com"))
+        star_button.clicked.connect(lambda: webbrowser.open("https://github.com/Mirage-BIN/Intelligence-Calculator"))
         star_button.setMinimumHeight(50)
         star_button.setFont(self.font_manager.get_font("Medium", 16))
         star_button.setStyleSheet("""
@@ -1536,7 +1536,7 @@ class MainWindow(QMainWindow):
         self.github_button = QPushButton()
         self.github_button.setFixedSize(32, 32)
         self.github_button.setCursor(Qt.PointingHandCursor)
-        self.github_button.clicked.connect(lambda: webbrowser.open("https://www.bilibili.com"))
+        self.github_button.clicked.connect(lambda: webbrowser.open("https://github.com/Mirage-BIN/Intelligence-Calculator"))
         self.github_button.setToolTip("GitHub")
         self.github_button.setStyleSheet("""
             QPushButton {
@@ -2260,3 +2260,4 @@ def main():
 if __name__ == "__main__":
     main()
     2026
+    
