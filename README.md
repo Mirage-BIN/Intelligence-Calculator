@@ -13,8 +13,6 @@
   <i>用欧拉公式和微积分计算 1+1 的"智能"计算器</i>
 </p>
 
-![Demo](https://via.placeholder.com/800x500/0078D7/FFFFFF?text=Intelligence+Calculator+Demo)
-
 ---
 
 ## 功能特点
